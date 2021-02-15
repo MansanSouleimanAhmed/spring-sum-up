@@ -16,12 +16,10 @@ const Div_Bar = styled.div`
 	& > div:nth-child(1) {
 		width: 20px;
 		height: 20px;
-		background-color: yellow;
 	}
 	& > div:nth-child(2) {
 		width: 120px;
 		height: 20px;
-		background-color: yellow;
 	}
 	& > div:nth-child(3) {
 		width: 120px;

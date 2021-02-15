@@ -7,9 +7,10 @@ function App() {
 	return (
 		<Fragment>
 			<SpringSumUP
-				backgroundImage="url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg)"
-				widthContent="11%"
-				height="700px"
+				backgroundImage="url(https://static.toiimg.com/photo/72975551.cms)"
+				widthContent="50%"
+				height="100vh"
+				width="100%"
 			/>
 			<br />
 		</Fragment>

@@ -33424,7 +33424,7 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\n\toverflow: hidden;\n\t& > div {\n\t\tposition: absolute;\n\t\twill-change: transform;\n\t\tbackground: lightcoral;\n\t\topacity: 0.6;\n\t}\n\n\t& > div:nth-child(1) {\n\t\twidth: 20px;\n\t\theight: 20px;\n\t\tbackground-color: yellow;\n\t}\n\t& > div:nth-child(2) {\n\t\twidth: 120px;\n\t\theight: 20px;\n\t\tbackground-color: yellow;\n\t}\n\t& > div:nth-child(3) {\n\t\twidth: 120px;\n\t\theight: 20px;\n\t\tbackground-color: yellow;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\n\toverflow: hidden;\n\t& > div {\n\t\tposition: absolute;\n\t\twill-change: transform;\n\t\tbackground: lightcoral;\n\t\topacity: 0.6;\n\t}\n\n\t& > div:nth-child(1) {\n\t\twidth: 20px;\n\t\theight: 20px;\n\t}\n\t& > div:nth-child(2) {\n\t\twidth: 120px;\n\t\theight: 20px;\n\t}\n\t& > div:nth-child(3) {\n\t\twidth: 120px;\n\t\theight: 20px;\n\t\tbackground-color: yellow;\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -33482,7 +33482,7 @@ function DivBar() {
 
 var _default = DivBar;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-spring":"../node_modules/react-spring/web.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js"}],"components/spring-sum-up/DIvHooks.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-spring":"../node_modules/react-spring/web.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js"}],"components/spring-sum-up/div-hooks.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33533,7 +33533,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _divBar = _interopRequireDefault(require("./div-bar"));
 
-var _DIvHooks = require("./DIvHooks");
+var _divHooks = require("./div-hooks");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33585,7 +33585,7 @@ function DivHooksComponent(props) {
       cubes = _useTrail2[0],
       set = _useTrail2[1];
 
-  return /*#__PURE__*/_react.default.createElement(_DIvHooks.DivHooks, {
+  return /*#__PURE__*/_react.default.createElement(_divHooks.DivHooks, {
     backgroundImageProps: props.backgroundImageProps,
     backgroundImage: props.backgroundImage,
     widthContent: props.widthContent,
@@ -33614,7 +33614,7 @@ function DivHooksComponent(props) {
 
 var _default = DivHooksComponent;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-spring":"../node_modules/react-spring/web.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","./div-bar":"components/spring-sum-up/div-bar.js","./DIvHooks":"components/spring-sum-up/DIvHooks.js"}],"components/spring-sum-up/spring-sum-up.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-spring":"../node_modules/react-spring/web.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","./div-bar":"components/spring-sum-up/div-bar.js","./div-hooks":"components/spring-sum-up/div-hooks.js"}],"components/spring-sum-up/spring-sum-up.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33736,9 +33736,10 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 //import SpringSumUP from './components/spring-sum-up/spring-sum-up';
 function App() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement(_springSumUp.default, {
-    backgroundImage: "url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg)",
-    widthContent: "11%",
-    height: "700px"
+    backgroundImage: "url(https://static.toiimg.com/photo/72975551.cms)",
+    widthContent: "50%",
+    height: "100vh",
+    width: "100%"
   }), /*#__PURE__*/_react.default.createElement("br", null));
 }
 
@@ -33799,7 +33800,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34401" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40487" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

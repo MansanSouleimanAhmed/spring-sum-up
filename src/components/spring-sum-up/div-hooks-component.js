@@ -3,7 +3,7 @@ import { useTrail, animated } from 'react-spring';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
 import DivBar from './div-bar';
-import { DivHooks } from './DIvHooks';
+import { DivHooks } from './div-hooks';
 
 // import { Container } from './styles';
 
