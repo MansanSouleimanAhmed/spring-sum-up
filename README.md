@@ -34,7 +34,7 @@
             <td>Yes</td>
             <td>
 ```
-                <SpringSumUP backgroundImage=
+                < SpringSumUP backgroundImage=
                 "url(https://static.toiimg.com/photo/72975551.cms)"/ >
 ```
             </td>
