@@ -13,18 +13,15 @@
     			width="100%"
 
 <table>
+    <thead>
         <tr>
-                        <td>propName</td>
-                        <td>propType</td>
-                        <td>defaultValue</td>
-                        <td>isRequired</td>
-              
+            <th colspan="2">test</th>
         </tr>
-                <tr>
-                        <td>propName</td>
-                        <td>propType</td>
-                        <td>defaultValue</td>
-                        <td>isRequired</td>
-              
-                </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+    </tbody>
 </table>
