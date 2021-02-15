@@ -15,11 +15,32 @@
 <table>
     <thead>
         <tr>
-            <th colspan="2">test</th>
+            <th>propName</th>
+            <th>propType</th>
+            <th>defaultValue</th>
+            <th>isRequired</th>
+            <th>Example</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <td>backgroundImage</td>
+            <td>propTypes.string</td>
+            <td>
+            ```
+            'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)'
+            ```
+            </td>
+            <td>Yes</td>
+            <td>
+            ```
+                <SpringSumUP backgroundImage="url(https://static.toiimg.com/photo/72975551.cms)"/>
+            ```
+            </td>
+        </tr>
+        <tr>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
         </tr>
