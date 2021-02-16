@@ -44,7 +44,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <th>propType</th>
             <th>defaultValue</th>
             <th>isRequired</th>
-            <th width="500px">Explanation</th>
+            <th>Explanation</th>
         </tr>
     </thead>
     <tbody>
@@ -55,7 +55,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)'
             </td>
             <td>Yes</td>
-            <td>
+            <td width="500px">
                 This parameter allows to set the background image, container div and the magnifying div</td>
         </tr>
         <tr>
