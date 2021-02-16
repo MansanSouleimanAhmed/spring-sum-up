@@ -156,18 +156,3 @@ All adjustable parameters are defined by default,(but of course you can modify t
     </tbody>
 
 </table>
-
-    height: '700px', done
-    width: '100%', done
-    margin: '0',
-    padding: '0',
-    opacity: '0.8',done
-    backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',
-    backgroundRepeat: 'no-repeat',done
-    backgroundSize: 'cover',done
-    /* Content */
-    magnifyingDiv: 4,done
-    widthContent: '100px',done
-    backgroundAttachmentContent: 'fixed',done
-    backgroundPositionContent: '0%',done
-    backgroundSizeContent: '120% 120%',done
