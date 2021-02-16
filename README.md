@@ -51,11 +51,10 @@ All adjustable parameters are defined by default,(but of course you can modify t
         <tr>
             <td>backgroundImage</td>
             <td>string</td>
-            <td>
-            'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)'
+            <td>           
             </td>
             <td>Yes</td>
-            <td width="500">
+            <td>
                 This parameter allows to set the background image, container div and the magnifying div</td>
         </tr>
         <tr>
