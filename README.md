@@ -78,13 +78,6 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <td>No</td>
             <td> - </td>
         </tr>
-          <tr>
-            <td>margin</td>
-            <td>string</td>
-           <td>0</td>
-            <td>No</td>
-            <td> - </td>
-        </tr>
          <tr>
             <td>backgroundRepeat</td>
             <td>string</td>
