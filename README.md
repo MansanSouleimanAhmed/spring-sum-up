@@ -44,7 +44,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <th>propType</th>
             <th>defaultValue</th>
             <th>isRequired</th>
-            <th style="width:700px">Explanation</th>
+            <th>Explanation</th>
         </tr>
     </thead>
     <tbody>
@@ -88,4 +88,9 @@ All adjustable parameters are defined by default,(but of course you can modify t
     </tbody>
 
 </table>
-```
+
+<style>
+.explanation {
+    width:700px;
+}
+</style>
