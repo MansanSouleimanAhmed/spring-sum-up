@@ -6,7 +6,7 @@ import DivHooksComponent from './div-hooks-component';
 
 const DivHooks = styled.div``;
 
-const SpringSumUP = ({
+const SpringSumUp = ({
 	height,
 	width,
 	margin,
@@ -41,7 +41,7 @@ const SpringSumUP = ({
 		</div>
 	);
 };
-SpringSumUP.propTypes = {
+SpringSumUp.propTypes = {
 	height: propTypes.string,
 	width: propTypes.string,
 	margin: propTypes.string,
@@ -57,7 +57,7 @@ SpringSumUP.propTypes = {
 	backgroundSize: propTypes.string,
 };
 
-SpringSumUP.defaultProps = {
+SpringSumUp.defaultProps = {
 	height: '700px',
 	width: '100%',
 	margin: '0',
@@ -72,4 +72,4 @@ SpringSumUP.defaultProps = {
 	backgroundSize: 'cover',
 };
 
-export default SpringSumUP;
+export default SpringSumUp;
