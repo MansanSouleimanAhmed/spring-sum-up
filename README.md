@@ -55,7 +55,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)'
             </td>
             <td>Yes</td>
-            <td width="500px">
+            <td width="500">
                 This parameter allows to set the background image, container div and the magnifying div</td>
         </tr>
         <tr>
@@ -78,6 +78,15 @@ All adjustable parameters are defined by default,(but of course you can modify t
         </tr>
         <tr>
             <td>width</td>
+            <td>string</td>
+            <td>
+            '100%'
+            </td>
+            <td>Yes</td>
+            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>
+        </tr>
+         <tr>
+            <td>widthContent</td>
             <td>string</td>
             <td>
             '100%'
