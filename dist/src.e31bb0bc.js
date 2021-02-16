@@ -33406,7 +33406,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tposition: relative;\n\theight: inherit;\n\twidth: inherit;\n\tbackground-attachment: fixed;\n\toverflow: hidden;\n\t& > span {\n\t\tposition: absolute;\n\t\twill-change: transform;\n\t\tbackground: lightcoral;\n\t\topacity: 0.6;\n\t}\n\n\t& > div {\n\t\tz-index: 1;\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\theight: inherit;\n\t\twidth: ", ";\n\t\t-webkit-box-shadow: 1px 0px 28px -3px rgba (0, 0, 0, 0.7);\n\t\tbox-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.7);\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-image: ", ";\n\t\tbackground-position: ", ";\n\t\tbackground-size: ", ";\n\t\t-webkit-background-size: ", ";\n\t\t-moz-background-size: ", ";\n\t\t-o-background-size: ", ";\n\t\tbackground-attachment: ", ";\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: relative;\n\theight: inherit;\n\twidth: inherit;\n\tbackground-attachment: fixed;\n\toverflow: hidden;\n\t& > span {\n\t\tposition: absolute;\n\t\twill-change: transform;\n\t\tbackground: lightcoral;\n\t\topacity: 0.6;\n\t}\n\n\t& > div {\n\t\tz-index: 1;\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\theight: inherit;\n\t\twidth: ", ";\n\t\t-webkit-box-shadow: 1px 0px 28px -3px rgba (0, 0, 0, 0.7);\n\t\tbox-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.7);\n\t\tbackground-image: ", ";\n\t\tbackground-position: ", ";\n\t\tbackground-size: ", ";\n\t\t-webkit-background-size: ", ";\n\t\t-moz-background-size: ", ";\n\t\t-o-background-size: ", ";\n\t\tbackground-attachment: ", ";\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -33576,7 +33576,6 @@ var DivHooks = _styledComponents.default.div(_templateObject());
 var SpringSumUp = function SpringSumUp(_ref) {
   var height = _ref.height,
       width = _ref.width,
-      margin = _ref.margin,
       padding = _ref.padding,
       opacity = _ref.opacity,
       backgroundImage = _ref.backgroundImage,
@@ -33591,7 +33590,6 @@ var SpringSumUp = function SpringSumUp(_ref) {
   var rootStyle = {
     height: height,
     width: width,
-    margin: margin,
     padding: padding,
     backgroundColor: backgroundColor,
     backgroundImage: backgroundImage,
@@ -33614,7 +33612,6 @@ var SpringSumUp = function SpringSumUp(_ref) {
 SpringSumUp.propTypes = {
   height: _propTypes.default.string,
   width: _propTypes.default.string,
-  margin: _propTypes.default.string,
   padding: _propTypes.default.string,
   opacity: _propTypes.default.string,
   backgroundColor: _propTypes.default.string,
@@ -33633,7 +33630,6 @@ SpringSumUp.propTypes = {
 SpringSumUp.defaultProps = {
   height: '100px',
   width: '100%',
-  margin: '0',
   padding: '0',
   opacity: '0.8',
   backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',
@@ -33670,16 +33666,13 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function App() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement(_springSumUp.default, {
-    backgroundImage: "url(https://images.ctfassets.net/hrltx12pl8hq/6gefxWFu1cp4cECQE6qpRS/15f4228cb3a2265c990dbaf1304ecea2/shutterstock_1469674187.jpg?fit=fill&w=800&h=400)"
-  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_springSumUp.default, {
     backgroundImage: "url(https://images.ctfassets.net/hrltx12pl8hq/6gefxWFu1cp4cECQE6qpRS/15f4228cb3a2265c990dbaf1304ecea2/shutterstock_1469674187.jpg?fit=fill&w=800&h=400)",
-    height: "700vh",
-    magnifyingDiv: 1,
+    height: "700px",
     widthContent: "20%",
-    backgroundRepeat: "repeat",
-    backgroundSizeContent: "120% 120%",
-    backgroundSize: "90% 90%"
-  }));
+    magnifyingDiv: 1,
+    padding: "50px",
+    backgroundColor: "red"
+  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null));
 }
 
 var _default = App;
@@ -33739,7 +33732,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41429" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45675" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

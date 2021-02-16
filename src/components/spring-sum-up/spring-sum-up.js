@@ -9,7 +9,6 @@ const DivHooks = styled.div``;
 const SpringSumUp = ({
 	height,
 	width,
-	margin,
 	padding,
 	opacity,
 	backgroundImage,
@@ -26,7 +25,6 @@ const SpringSumUp = ({
 	const rootStyle = {
 		height: height,
 		width: width,
-		margin: margin,
 		padding: padding,
 		backgroundColor: backgroundColor,
 		backgroundImage: backgroundImage,
@@ -51,7 +49,6 @@ const SpringSumUp = ({
 SpringSumUp.propTypes = {
 	height: propTypes.string,
 	width: propTypes.string,
-	margin: propTypes.string,
 	padding: propTypes.string,
 	opacity: propTypes.string,
 	backgroundColor: propTypes.string,
@@ -70,7 +67,6 @@ SpringSumUp.propTypes = {
 SpringSumUp.defaultProps = {
 	height: '100px',
 	width: '100%',
-	margin: '0',
 	padding: '0',
 	opacity: '0.8',
 	backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',

@@ -35,6 +35,8 @@ import { SpringSumUp } from 'spring-sum-up';
 Just import the component you want to use and then use it somewhere.
 All adjustable parameters are defined by default,(but of course you can modify them) the size of the container div, the size of the divs with the magnifying glass effect, the number of magnifying divs, parameters related to the background image such as background-size, background-repeat, background-color, background-position.
 </p>
+<p>The container div refers to the div that contains the magnifying divs.</p>
+<p>The magnifying div refers to the all the divs that you create inside the container div.</p>
 <p>You can see below all the parameters you can change:</p>
 
 <table>
@@ -67,6 +69,20 @@ All adjustable parameters are defined by default,(but of course you can modify t
             </td>
           </a>
             <td>Yes</td>
+            <td> - </td>
+        </tr>
+         <tr>
+            <td>padding</td>
+            <td>string</td>
+           <td>0</td>
+            <td>No</td>
+            <td> - </td>
+        </tr>
+          <tr>
+            <td>margin</td>
+            <td>string</td>
+           <td>0</td>
+            <td>No</td>
             <td> - </td>
         </tr>
          <tr>
@@ -117,14 +133,33 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <th></th>
             <th></th>
         </tr>
-         <tr>
-            <td>widthContent</td>
+        <tr>
+            <td>magnifyingDiv</td>
             <td>string</td>
-            <td>
-            '100px'
-            </td>
+            <td>4</td>
             <td>Yes</td>
-            <td>The parameter allows to set the size of the magnifying div within the container. You should use values in px, or viewport, and %.</td>
+            <td>This parameter defines the numbers of magnifying divs. Example : magnifyingDiv={1}</td>
+        </tr>
+         <tr>
+            <td>backgroundAttachmentContent</td>
+            <td>string</td>
+            <td>fixed</td>
+            <td>Yes</td>
+            <td>-</td>
+        </tr>
+         <tr>
+            <td>backgroundPositionContent</td>
+            <td>string</td>
+            <td>0%</td>
+            <td>No</td>
+            <td>-</td>
+        </tr>
+          <tr>
+            <td> backgroundSizeContent</td>
+            <td>string</td>
+            <td>120% 120%</td>
+            <td>No</td>
+            <td>-</td>
         </tr>
     </tbody>
 
@@ -132,15 +167,15 @@ All adjustable parameters are defined by default,(but of course you can modify t
 
     height: '700px', done
     width: '100%', done
-    margin: '0',done
+    margin: '0',
     padding: '0',
     opacity: '0.8',done
     backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',
     backgroundRepeat: 'no-repeat',done
     backgroundSize: 'cover',done
     /* Content */
-    magnifyingDiv: 4,
-    widthContent: '100px',
-    backgroundAttachmentContent: 'fixed',
-    backgroundPositionContent: '0%',
-    backgroundSizeContent: '120% 120%',
+    magnifyingDiv: 4,done
+    widthContent: '100px',done
+    backgroundAttachmentContent: 'fixed',done
+    backgroundPositionContent: '0%',done
+    backgroundSizeContent: '120% 120%',done

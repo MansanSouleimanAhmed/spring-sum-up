@@ -21,7 +21,6 @@ export const DivHooks = styled.div`
 		width: ${(props) => props.widthContent};
 		-webkit-box-shadow: 1px 0px 28px -3px rgba (0, 0, 0, 0.7);
 		box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.7);
-		background-repeat: no-repeat;
 		background-image: ${(props) => props.backgroundImage};
 		background-position: ${(props) => props.backgroundPositionContent};
 		background-size: ${(props) => props.backgroundSizeContent};
