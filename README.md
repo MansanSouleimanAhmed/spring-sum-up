@@ -94,7 +94,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <td>widthContent</td>
             <td>string</td>
             <td>
-            '100%'
+            '100px'
             </td>
             <td>Yes</td>
             <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>

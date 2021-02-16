@@ -12,31 +12,38 @@ const SpringSumUp = ({
 	margin,
 	padding,
 	backgroundColor,
-	/* Images */
-	backgroundAttachment,
+	opacity,
 	backgroundImage,
 	backgroundRepeat,
 	backgroundSize,
+	/* Content */
 	widthContent,
+	magnifyingDiv,
+	backgroundAttachmentContent,
+	backgroundPositionContent,
+	backgroundSizeContent,
 }) => {
 	const rootStyle = {
-		height: (height = !undefined ? height : propTypes.height),
-		width: (width = !undefined ? width : propTypes.width),
-		margin: (margin = !undefined ? margin : propTypes.margin),
-		padding: (padding = !undefined ? padding : propTypes.padding),
-		backgroundColor: (backgroundColor = !undefined ? backgroundColor : propTypes.backgroundColor),
-		backgroundImage: (backgroundImage = !undefined ? backgroundImage : propTypes.backgroundImage),
-		backgroundRepeat: (backgroundRepeat = !undefined ? backgroundRepeat : propTypes.backgroundRepeat),
-		backgroundSize: (backgroundSize = !undefined ? backgroundSize : propTypes.backgroundSize),
+		height: height,
+		width: width,
+		margin: margin,
+		padding: padding,
+		backgroundColor: backgroundColor,
+		backgroundImage: backgroundImage,
+		backgroundRepeat: backgroundRepeat,
+		backgroundSize: backgroundSize,
+		opacity: opacity,
 	};
 
 	return (
 		<div style={rootStyle}>
 			<DivHooksComponent
 				backgroundImage={backgroundImage}
-				backgroundImageProps={propTypes.backgroundImage}
+				backgroundAttachmentContent={backgroundAttachmentContent}
 				widthContent={widthContent}
-				widthContentProps={propTypes.widthContent}
+				magnifyingDiv={magnifyingDiv}
+				backgroundPositionContent={backgroundPositionContent}
+				backgroundSizeContent={backgroundSizeContent}
 			/>
 		</div>
 	);
@@ -48,28 +55,34 @@ SpringSumUp.propTypes = {
 	padding: propTypes.string,
 	backgroundColor: propTypes.string,
 	opacity: propTypes.string,
-	widthContent: propTypes.string,
-	/* Images */
-
 	backgroundAttachment: propTypes.string,
 	backgroundImage: propTypes.string,
 	backgroundRepeat: propTypes.string,
 	backgroundSize: propTypes.string,
+	/* Content */
+	widthContent: propTypes.string,
+	backgroundAttachmentContent: propTypes.string,
+	backgroundPositionContent: propTypes.string,
+	magnifyingDiv: propTypes.number,
+	backgroundSizeContent: propTypes.string,
 };
 
 SpringSumUp.defaultProps = {
-	height: '700px',
+	height: '100px',
 	width: '100%',
 	margin: '0',
 	padding: '0',
-	widthContent: '100px',
-	backgroundColor: '#fff',
-	opacity: '0.3',
-	/* Images */
-	//backgroundAttachment:,
+	backgroundColor: '#000',
+	opacity: '0.8',
 	backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',
 	backgroundRepeat: 'no-repeat',
 	backgroundSize: 'cover',
+	/* Content */
+	magnifyingDiv: 4,
+	widthContent: '100px',
+	backgroundAttachmentContent: 'fixed',
+	backgroundPositionContent: '0%',
+	backgroundSizeContent: '120% 120%',
 };
 
 export default SpringSumUp;
