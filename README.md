@@ -18,7 +18,7 @@ CSS and implemented with React Spring to animate magnifying divs. It also allows
 Here's the most basic way to add the package to your page:
 </p>
 
-´´´
+```
 import React from 'react';
 import { SpringSumUp } from 'spring-sum-up';
 
@@ -29,13 +29,13 @@ import { SpringSumUp } from 'spring-sum-up';
     			width="100%"
     		/>
 
-´´´
+```
 
 <p>
 Just import the component you want to use and then use it somewhere.
 All adjustable parameters are defined by default,(but of course you can modify them) the size of the container div, the size of the divs with the magnifying glass effect, the number of magnifying divs, parameters related to the background image such as background-size, background-repeat, background-color, background-position.
-You can see below all the parameters you can change:
 </p>
+<p>You can see below all the parameters you can change:</p>
 
 <table>
     <thead>
@@ -44,26 +44,31 @@ You can see below all the parameters you can change:
             <th>propType</th>
             <th>defaultValue</th>
             <th>isRequired</th>
-            <th>Example</th>
+            <th>Explanation</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>backgroundImage</td>
-            <td>propTypes.string</td>
+            <td>string</td>
             <td>
             'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)'
             </td>
-            <td>Yes</td>
-            <td>
-            </td>
+            <td>This parameter allows to set the background image, container div and the magnifying div.</td>
         </tr>
         <tr>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td>height</td>
+            <td>string</td>
+            <td>Yes</td>
+            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, but not in %.</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>string</td>
+            <td>Yes</td>
+            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>
         </tr>
     </tbody>
 
 </table>
+```
