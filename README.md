@@ -40,6 +40,9 @@ All adjustable parameters are defined by default,(but of course you can modify t
 <table>
     <thead>
         <tr>
+            <th>The container div</th>
+        </tr>
+        <tr>
             <th>propName</th>
             <th>propType</th>
             <th>defaultValue</th>
@@ -54,14 +57,27 @@ All adjustable parameters are defined by default,(but of course you can modify t
            <a href="https://www.partir.com/
             images/incontournables/japon-hakone
             -fuji.jpg"> <td>
-            'url(https://www.partir.com/
+            url(https://www.partir.com/
             images/incontournables/japon-hakone
-            -fuji.jpg)'
+            -fuji.jpg)
             </td>
           </a>
             <td>Yes</td>
-            <td>
-                This parameter allows to set the background image, container div and the magnifying div</td>
+            <td> - </td>
+        </tr>
+         <tr>
+            <td>backgroundRepeat</td>
+            <td>string</td>
+           <td>no-repeat</td>
+            <td>No</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>backgroundSize</td>
+            <td>string</td>
+           <td>cover</td>
+            <td>No</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>height</td>
@@ -70,7 +86,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             '700px'
             </td>
             <td>Yes</td>
-            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, but not in %.</td>
+            <td>The parameter allows to set the height of the container div. You should use only values in px, or viewport, but not in %.</td>
         </tr>
         <tr>
             <td>width</td>
@@ -79,16 +95,19 @@ All adjustable parameters are defined by default,(but of course you can modify t
             '100%'
             </td>
             <td>Yes</td>
-            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>
+            <td>The parameter allows to set the width of the container div. You should use values in px, or viewport, and %.</td>
         </tr>
-        <tr>
-            <td>width</td>
+          <tr>
+            <td>opacity</td>
             <td>string</td>
-            <td>
-            '100%'
+             <td>
+            '0.8'
             </td>
             <td>Yes</td>
-            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <th>The magnifying div</th>
         </tr>
          <tr>
             <td>widthContent</td>
@@ -97,8 +116,23 @@ All adjustable parameters are defined by default,(but of course you can modify t
             '100px'
             </td>
             <td>Yes</td>
-            <td>The parameter allows to set the size of the container div. You should use only values in px, or viewport, and %.</td>
+            <td>The parameter allows to set the size of the magnifying div within the container. You should use values in px, or viewport, and %.</td>
         </tr>
     </tbody>
 
 </table>
+
+    height: '700px', done
+    width: '100%', done
+    margin: '0',done
+    padding: '0',
+    opacity: '0.8',done
+    backgroundImage: 'url(https://www.partir.com/images/incontournables/japon-hakone-fuji.jpg)',
+    backgroundRepeat: 'no-repeat',done
+    backgroundSize: 'cover',done
+    /* Content */
+    magnifyingDiv: 4,
+    widthContent: '100px',
+    backgroundAttachmentContent: 'fixed',
+    backgroundPositionContent: '0%',
+    backgroundSizeContent: '120% 120%',
