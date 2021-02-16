@@ -40,7 +40,11 @@ All adjustable parameters are defined by default,(but of course you can modify t
 <table>
     <thead>
         <tr>
+            <th></th>
+            <th></th>
             <th>The container div</th>
+            <th></th>
+            <th></th>
         </tr>
         <tr>
             <th>propName</th>
@@ -107,7 +111,11 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <td> - </td>
         </tr>
         <tr>
+            <th></th>
+            <th></th>
             <th>The magnifying div</th>
+            <th></th>
+            <th></th>
         </tr>
          <tr>
             <td>widthContent</td>
