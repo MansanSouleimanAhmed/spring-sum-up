@@ -51,8 +51,13 @@ All adjustable parameters are defined by default,(but of course you can modify t
         <tr>
             <td>backgroundImage</td>
             <td>string</td>
-            <td>'url(https://www.partir.com/images/
-            incontournables/japon-hakone-fuji.jpg)'           
+            <td><a href="(https://www.partir.com/
+            images/incontournables/japon-hakone
+            -fuji.jpg">
+            'url(https://www.partir.com/
+            images/incontournables/japon-hakone
+            -fuji.jpg)' 
+            </a>          
             </td>
             <td>Yes</td>
             <td>
