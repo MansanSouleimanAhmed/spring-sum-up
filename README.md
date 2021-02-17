@@ -71,7 +71,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <td> - </td>
         </tr>
          <tr>
-            <td>padding</td>
+            <td align="center">padding</td>
             <td>string</td>
            <td>0</td>
             <td>No</td>
