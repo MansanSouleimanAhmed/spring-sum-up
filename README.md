@@ -35,7 +35,7 @@ import { SpringSumUp } from 'spring-sum-up';
 Just import the component you want to use and then use it somewhere.
 All adjustable parameters are defined by default,(but of course you can modify them) the size of the container div, the size of the divs with the magnifying glass effect, the number of magnifying divs, parameters related to the background image such as background-size, background-repeat, background-color, background-position.
 </p>
-<p>The container div refers to the div that contains the magnifying divs.The magnifying div refers to the all the divs that you create inside the container div.</p>
+<p style="color: blue">The container div refers to the div that contains the magnifying divs.The magnifying div refers to the all the divs that you create inside the container div.</p>
 <p>You can see below all the parameters you can change:</p>
 
 <table>
@@ -57,7 +57,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
     </thead>
     <tbody>
         <tr>
-            <td style="color: blue">backgroundImage</td>
+            <td>backgroundImage</td>
             <td>string</td>
            <a href="https://www.partir.com/
             images/incontournables/japon-hakone
