@@ -38,7 +38,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
 <p>The container div refers to the div that contains the magnifying divs.The magnifying div refers to the all the divs that you create inside the container div.</p>
 <p>You can see below all the parameters you can change:</p>
 
-<table>
+<table style="color: blue">
     <thead>
         <tr>
             <th></th>
@@ -71,7 +71,7 @@ All adjustable parameters are defined by default,(but of course you can modify t
             <td> - </td>
         </tr>
          <tr>
-            <td align="center">padding</td>
+            <td>padding</td>
             <td>string</td>
            <td>0</td>
             <td>No</td>
